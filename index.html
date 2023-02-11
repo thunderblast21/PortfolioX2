@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTTFOLIO</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PORTTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#newrelease">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              
+              
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search about me"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/image/2Brown Abstract Shape Portfolio Cover Document (2).png"
+            class="d-block w-10"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/image/mycertificate2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/image/certiicate.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br /><br />
+    <hr />
+    <br />
+
+    <h1>Achievements</h1>
+
+    <!-- CARDS -->
+
+    <div
+      id="newrelease"
+      class="row row-cols-1 row-cols-md-3 g-4"
+      data-aos="fade-up"
+      data-aos-delay="300"
+    >
+      <div class="col">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Coding Fate</h5>
+            <p class="card-text">
+              Winner of RECODE 5.0.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+         
+          <div class="card-body">
+            <h5 class="card-title">Award</h5>
+            <p class="card-text">
+              Got an award from Pof. Anupam Basu
+              for creating the new website of the college.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">GSOC</h5>
+            <p class="card-text">
+              Cracked GSOC in 2023.
+            </p>
+          </div>
+        </div>
+      </div>
+   
+     
+      
+    </div>
+
+    <br /><br />
+    <hr />
+    <br />
+    <!-- CONTACT -->
+
+    <section id="contact" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8 pb-4" data-aos="fade-up">
+            <h5 class="text-brand">CONTACT ME</h5>
+            <h1>Interested in contacting me? Let's talk</h1>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+            <form action="#" class="row g-lg-3 gy-3">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter subject"
+                />
+              </div>
+              <div class="form-group col-12">
+                <textarea
+                  name=""
+                  rows="4"
+                  class="form-control"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <div class="form-group col-12 d-grid">
+                <button type="submit" class="btn btn-outline-primary">
+                  Contact Me
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- FOOTER -->
+
+    <footer class="py-5 px-lg-5">
+      <div class="container">
+        <div class="col-auto">
+          <p class="mb-0">Designed by <strong>Aniruddha Mondal</strong></p>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
